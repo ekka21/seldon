@@ -9,7 +9,7 @@ Setting up Seldon local development on kind
 - Install kind `brew install kind`
 
 ## Get started
-- `make init, installing `kind cluster`, `cert-manager`, `istio`, `seldon-core`
+- `make init`, installing `kind cluster`, `cert-manager`, `istio`, `seldon-core`
 - `make iris`, installing iris prediction
 - `make test`, port-forward a service and sending a request to iris prediction endpoint
 
